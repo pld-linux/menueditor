@@ -21,7 +21,7 @@ Menu Editor to edytor menu i konsoli IceWM.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 ./configure Linux -v \
